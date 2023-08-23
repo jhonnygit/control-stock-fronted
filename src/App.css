@@ -1,3 +1,35 @@
 .App {
   text-align: center;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  outline: none;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #aaa;
+}
+
+button {
+  background: #333;
+  color: white;
+  outline: none;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #222;
+}
